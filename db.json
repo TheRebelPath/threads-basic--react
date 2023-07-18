@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "user_uuid": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "username": "Code with Bob Sponge",
+      "handle": "spongebob",
+      "bio": "Live in a pineapple under the sea.",
+      "link": "https://www.linktr.ee/spongebob",
+      "img": "https://i.imgur.com/NN7X0SX.jpeg",
+      "instagram": "https://www.instagram.com",
+      "followers": [
+        {
+          "user_uuid": "ce8e1c18-a667-428f-bf8b-dc56a6e929bf"
+        },
+        {
+          "user_uuid": "3cf079e0-891c-4521-8b4c-8cc134de6188"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "user_uuid": "ce8e1c18-a667-428f-bf8b-dc56a6e929bf",
+      "username": "Mr Krabs",
+      "handle": "krabs69",
+      "bio": "Owner of the Krusty Krab",
+      "link": "https://www.linktr.ee/krabz",
+      "img": "https://i.imgur.com/4JUrSKs.jpeg",
+      "instagram": "https://www.instagram.com",
+      "followers": [
+        {
+          "user_uuid": "db81ed16-b160-4db2-a046-6309e9b765fe"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "3cf079e0-891c-4521-8b4c-8cc134de6188",
+      "username": "Sandy Cheeks",
+      "handle": "sandyyehaw",
+      "bio": "a squirrel from Texas!",
+      "link": "https://www.linktr.ee/sandy",
+      "img": "https://i.imgur.com/CmcduIK.jpeg",
+      "instagram": "https://www.instagram.com",
+      "followers": [
+        {
+          "user_uuid": "db81ed16-b160-4db2-a046-6309e9b765fe"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": 0,
+      "timestamp": "Mon Jul 17 2023 16:38:21 GMT-0600 (Central Standard Time)",
+      "thread_from": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Hello there!",
+      "likes": [
+        {
+          "uuid": "ce8e1c18-a667-428f-bf8b-dc56a6e929bf"
+        },
+        {
+          "uuid": "3cf079e0-891c-4521-8b4c-8cc134de6188"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "timestamp": "Mon Jul 17 2023 16:48:21 GMT-0600 (Central Standard Time)",
+      "thread_from": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Awesome thread!",
+      "likes": []
+    },
+    {
+      "id": 2,
+      "timestamp": "Mon Jul 17 2023 18:48:21 GMT-0600 (Central Standard Time)",
+      "thread_from": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "ANOTHER!",
+      "likes": []
+    },
+    {
+      "id": 3,
+      "timestamp": "Mon Jul 17 2023 19:28:21 GMT-0600 (Central Standard Time)",
+      "thread_from": "ce8e1c18-a667-428f-bf8b-dc56a6e929bf",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Exited to have launched the Krusty Krab!",
+      "likes": []
+    },
+    {
+      "id": 4,
+      "timestamp": "Mon Jul 17 2023 19:33:21 GMT-0600 (Central Standard Time)",
+      "thread_from": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "thread_to": "ce8e1c18-a667-428f-bf8b-dc56a6e929bf",
+      "reply_to": 3,
+      "text": "Congrats!",
+      "likes": []
+    }
+  ]
+}
