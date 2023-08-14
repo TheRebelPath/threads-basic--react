@@ -1,14 +1,14 @@
 {
   "users": [
     {
-      "id": 0,
+      "id": 1,
       "user_uuid": "db81ed16-b160-4db2-a046-6309e9b765fe",
       "username": "Code with Bob Sponge",
       "handle": "spongebob",
-      "bio": "Live in a pineapple under the sea.",
+      "bio": "Lives in a pineapple under the sea.",
       "link": "https://www.linktr.ee/spongebob",
       "img": "https://i.imgur.com/NN7X0SX.jpeg",
-      "instagram": "https://www.instagram.com",
+      "instagram_url": "https://www.instagram.com",
       "followers": [
         {
           "user_uuid": "ce8e1c18-a667-428f-bf8b-dc56a6e929bf"
@@ -19,14 +19,14 @@
       ]
     },
     {
-      "id": 1,
+      "id": 2,
       "user_uuid": "ce8e1c18-a667-428f-bf8b-dc56a6e929bf",
       "username": "Mr Krabs",
       "handle": "krabs69",
       "bio": "Owner of the Krusty Krab",
       "link": "https://www.linktr.ee/krabz",
       "img": "https://i.imgur.com/4JUrSKs.jpeg",
-      "instagram": "https://www.instagram.com",
+      "instagram_url": "https://www.instagram.com",
       "followers": [
         {
           "user_uuid": "db81ed16-b160-4db2-a046-6309e9b765fe"
@@ -34,14 +34,14 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "user_uuid": "3cf079e0-891c-4521-8b4c-8cc134de6188",
       "username": "Sandy Cheeks",
       "handle": "sandyyehaw",
       "bio": "a squirrel from Texas!",
       "link": "https://www.linktr.ee/sandy",
       "img": "https://i.imgur.com/CmcduIK.jpeg",
-      "instagram": "https://www.instagram.com",
+      "instagram_url": "https://www.instagram.com",
       "followers": [
         {
           "user_uuid": "db81ed16-b160-4db2-a046-6309e9b765fe"
@@ -51,7 +51,7 @@
   ],
   "threads": [
     {
-      "id": 0,
+      "id": 1,
       "timestamp": "Mon Jul 17 2023 16:38:21 GMT-0600 (Central Standard Time)",
       "thread_from": "db81ed16-b160-4db2-a046-6309e9b765fe",
       "thread_to": null,
@@ -59,21 +59,15 @@
       "text": "Hello there!",
       "likes": [
         {
-          "uuid": "ce8e1c18-a667-428f-bf8b-dc56a6e929bf"
+          "user_uuid": "ce8e1c18-a667-428f-bf8b-dc56a6e929bf"
         },
         {
-          "uuid": "3cf079e0-891c-4521-8b4c-8cc134de6188"
+          "user_uuid": "3cf079e0-891c-4521-8b4c-8cc134de6188"
+        },
+        {
+          "user_uuid": "db81ed16-b160-4db2-a046-6309e9b765fe"
         }
       ]
-    },
-    {
-      "id": 1,
-      "timestamp": "Mon Jul 17 2023 16:48:21 GMT-0600 (Central Standard Time)",
-      "thread_from": "db81ed16-b160-4db2-a046-6309e9b765fe",
-      "thread_to": null,
-      "reply_to": null,
-      "text": "Awesome thread!",
-      "likes": []
     },
     {
       "id": 2,
@@ -101,6 +95,95 @@
       "reply_to": 3,
       "text": "Congrats!",
       "likes": []
+    },
+    {
+      "id": 5,
+      "timestamp": "Mon Jul 17 2023 20:33:21 GMT-0600 (Central Standard Time)",
+      "thread_from": "ce8e1c18-a667-428f-bf8b-dc56a6e929bf",
+      "thread_to": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "reply_to": 1,
+      "text": "Hiya!",
+      "likes": []
+    },
+    {
+      "timestamp": "2023-07-19T01:30:48.739Z",
+      "thread_from": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "thread_to": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "reply_to": 1,
+      "text": "wazaaaaaaap!",
+      "likes": [],
+      "id": 6
+    },
+    {
+      "timestamp": "2023-07-19T01:42:29.961Z",
+      "thread_from": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "thread_to": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "reply_to": 1,
+      "text": "I'm so tired, i can't sleep....",
+      "likes": [],
+      "id": 7
+    },
+    {
+      "timestamp": "2023-07-19T01:43:55.967Z",
+      "thread_from": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "thread_to": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "reply_to": 4,
+      "text": "live, die, repeat",
+      "likes": [
+        {
+          "user_uuid": "db81ed16-b160-4db2-a046-6309e9b765fe"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "timestamp": "2023-07-19T01:47:49.103Z",
+      "thread_from": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "thread_to": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "reply_to": null,
+      "text": "check check check...",
+      "likes": [
+        {
+          "user_uuid": "db81ed16-b160-4db2-a046-6309e9b765fe"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "timestamp": "2023-07-19T01:56:50.058Z",
+      "thread_from": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "thread_to": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "reply_to": 1,
+      "text": "hi to myself",
+      "likes": [],
+      "id": 10
+    },
+    {
+      "timestamp": "2023-07-19T01:57:17.693Z",
+      "thread_from": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "thread_to": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "reply_to": null,
+      "text": "unga bunga unga bunga",
+      "likes": [],
+      "id": 11
+    },
+    {
+      "timestamp": "2023-07-19T02:10:51.951Z",
+      "thread_from": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "thread_to": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "reply_to": 2,
+      "text": "space between `________     `",
+      "likes": [],
+      "id": 12
+    },
+    {
+      "timestamp": "2023-07-19T02:10:53.960Z",
+      "thread_from": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "thread_to": "db81ed16-b160-4db2-a046-6309e9b765fe",
+      "reply_to": 2,
+      "text": "space between `________     `",
+      "likes": [],
+      "id": 13
     }
   ]
 }
